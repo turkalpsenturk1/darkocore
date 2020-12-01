@@ -1,0 +1,80 @@
+.anasayfa-yazisi{
+    color: #fff;
+    font-family: "torus";
+    text-align: center;
+    margin-top: 7%;
+}
+.anasayfa-yazisi h1{
+    padding: 0px 5px;
+}
+.anasayfa-yazisi p{
+    color: rgba(255, 255, 255, 0.699);
+    font-family: "torus";
+    text-align: left;
+    height: 10%;
+    font-size: 100%;
+    line-height: 20px;
+    width: 55%;
+    padding: 0px 5px;
+    margin-left: 21.5%;
+}
+.icerikyazisi{
+    color: #fff;
+    font-family: "torus";
+    font-size: 13px;
+    padding: 0px 20px;
+    margin-top: 140px;
+    margin-right: 1030px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #26292c;
+    background-image: url(../meduwarewebsitedata/arkaplantema2.png);
+    font-family: "torus";
+}
+button4{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+   -khtml-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+          cursor:pointer;
+  display: grid;
+  width: 200px;
+  color: rgba(38, 49, 58, 0.856);
+  background-color: #fff;
+  text-decoration:none;
+  text-align: center;
+  font-family: "torus";
+  display: inline-block;
+  border: 14px solid transparent;
+  border-radius: 5px;
+  z-index: 2;
+}
+button4:hover{
+  color: rgb(35, 39, 42);
+}
+
+#isaret{
+    color: rgb(146, 146, 146);
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fa-quote-left{
+    margin-left: -60%;
+}
+
+.fa-quote-right{
+    margin-left: 60%;
+}
+
+@font-face {
+
+    font-family: torus;
+    
+    src: url(../fonts/Torus-SemiBold.otf) format("truetype");
+  }
